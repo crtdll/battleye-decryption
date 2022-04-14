@@ -496,8 +496,8 @@ namespace buffers {
 
 int main() {
     try_print_decryption(buffers::driver_names, sizeof(buffers::driver_names));
-    try_print_decryption(buffers::signatures_1, sizeof(buffers::driver_names));
-    try_print_decryption(buffers::signatures_2, sizeof(buffers::driver_names));
+    try_print_decryption(buffers::signatures_1, sizeof(buffers::signatures_1));
+    try_print_decryption(buffers::signatures_2, sizeof(buffers::signatures_2));
     try_print_decryption(buffers::hardware_information, sizeof(buffers::hardware_information));
 
 	system("pause");
